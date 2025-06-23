@@ -1,0 +1,167 @@
+%漢文のテストコード!!!消すな!!! %%%%%%%%%%%%%%%%%%%%
+
+\documentclass[b5paper, 8pt, twoside]{ltjtreport}
+\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%
+%パッケージ関連
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v1.9}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.5}
+\usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/myuline--}
+
+\setlength{\parskip}{-0.05em} 
+
+\renewcommand{\headrule}{}
+\pagestyle{fancy}
+\fancyhead{}
+% \fancyhead{\vskip12pt\dotfill}
+\fancyhead[ER]{\Lhead{How To Use \LaTeX}}  
+\fancyhead[OL]{\Rhead{縦組環境サンプル}}
+\cfoot{}
+
+\begin{document}
+% \fontsize{8}{12}\selectfont%ないと変更不可。kannbunパッケージとの競合のため仕方なし。
+
+\begin{multicols*}{2}
+\breakfbox{\large 縦書き環境を使ってみよう}\br
+　和文縦書き\sou{ltjtreport}クラスを用いて漢文の解説プリントのサンプルと作るとこうなる。\br
+
+% 漢文を登録（横組みでもOK）
+{\large 　　涼州詞}　　王翰
+\vspace*{1em}
+\Kanbun 
+葡萄(ぶどう){ノ}美酒夜光{ノ}杯(はい)[レ]、欲{すれば}飲{マント}[レ]琵琶馬上{ニ}催{ス}[一]。
+醉臥沙場君莫笑[二]、古来征戦幾人回[三]。
+\EndKanbun
+
+{\kan\printkanbunnopar\par}
+
+\midashi{涼州詞}\\
+『涼州詞』は、唐代の詩人・王翰による七言絶句で、辺境に赴く兵士たちの壮行の宴を描いています。葡萄酒を夜光杯に注ぎ、琵琶の音が馬上から響く中、兵士たちは酔いしれます。「酔って沙場に臥すとも、君笑うことなかれ。古来征戦、幾人か回る」と詠み、戦場に倒れる覚悟と、命の儚さを表現しています。この詩は、兵士たちの豪放さと悲壮感を巧みに描き、盛唐の辺塞詩の代表作とされています。
+
+\begin{simple}[王翰]{涼州詩}
+  \kan\printkanbunnopar\par
+\end{simple}
+
+{\large 　　春暁}　　孟浩然
+\vspace*{1em}
+
+\Kanbun
+春眠不覚暁　処処聞啼鳥
+夜来風雨声　花落知多少。
+\EndKanbun
+
+{\kan\printkanbunnopar\par}
+
+\midashi{春暁}\\
+『春暁』は唐代の詩人・孟浩然による五言絶句で、春の朝の情景を詠んだ詩です。春の夜の心地よい眠りから目覚め、鳥のさえずりを聞きながら、夜の間に降った雨が花に影響を与えていないかを案じる様子が描かれています。自然の美しさと季節の移ろいを繊細に表現した作品です。
+
+\begin{ascolorbox4}[孟浩然]{春暁}
+  \kan\printkanbunnopar\par
+\end{ascolorbox4}
+
+\newpage
+
+\breakfbox{\large 色々な漢文を掲載}\\
+\br
+{\large 　　陳寿『三国志』蜀書・諸葛亮伝}
+\vspace*{1em}
+
+\Kanbun
+孤之有ルハ[二]孔明[一]，猶ホ‹ごと›«キ»[二]魚之有ルガ[一レ]水也。
+\EndKanbun
+\letk{\孤}
+
+\Kanbun
+此レ乃チ信(しん)之‘所―[三]以’(ゆゑん)為ル[二]陛下ノ禽(とりこ)ト[一]也。
+\EndKanbun
+\letk{\此}
+
+{\kan\孤{\klinenumbering{\maru{67}}\overkLine{\此}}\par}
+
+% 第1文：論語より
+\Kanbun
+学ビテ時ニ之ヲ習フ、亦説バシカラズヤ。
+\EndKanbun
+\letk{\学}
+
+% 第2文：孟子より
+\Kanbun
+天将ニ‹す›«ルヤ»大任ヲ是ノ人ニ降サント、必ズ先ズ其ノ心志ヲ苦シメ
+\EndKanbun
+\letk{\天}
+
+% 第3文：史記・項羽本紀より
+\Kanbun
+力ハ山ヲ抜キ、気ハ世ヲ蓋フ。
+\EndKanbun
+\letk{\力}
+
+% 第4文：韓非子より
+\Kanbun
+法不在多、在必行ナリ。
+\EndKanbun
+
+\letk{\法}
+
+\br
+{\large　　『論語』学而篇}
+\vspace*{1em}
+
+{\kan
+\学{\klinenumbering{\maru{34}}{\bfseries\overkLine{\天}}}
+\par
+}
+
+\Kanbun
+武田信玄不[レ](ず)浜セ[レ]海ニ。仰グ[二]塩ヲ於東海ニ[一]。
+\EndKanbun
+\letk{\信}
+
+\Kanbun
+北条氏真与[二](と)北條氏康[一]謀リ、陰カニ閉[二]其ノ塩[一]。
+\EndKanbun
+\letk{\北}
+
+%改行は内部処理が変わるので禁止。
+\Kanbun
+甲斐多イニ困シム。上杉謙信聞き[レ]之ヲ寄[二]書ヲ信玄二[一]曰ハク、「聞ク[二]氏康・氏真困(くる)[レ]シムルニ君ヲ以[一レ]テスト塩ヲ。不勇不義ナリ。我与(と)[レ]公争ヘドモ、所[レ]ハ争フ在二リテ弓箭[一]ニ、不(ず)[レ]在[二]ラ米塩[一]ニ。請フ自よ[レ]リ今以往、取二[レ]塩ヲ於我ガ国[一]ニ。多寡ハ唯ダ命ノミト。」乃チ命[二]ジ賈人[一]ニ、平(たひ)[レ]ラカニシテ価ヲ給[レ]セシム之ヲ。
+\EndKanbun
+\letk{\甲}
+
+\br
+{\large 　　上杉謙信}　　頼山陽
+\vspace*{1em}
+
+%\parで切ることによって、行間調整が効くようになる。
+{\kan\overkLine{\信\北\甲}\par}
+\end{multicols*}
+\end{document}
+
+
+%一部だけ横書に%%%%%%%%%%%%%%%%%%%%
+% \documentclass[a4paper]{ltjsarticle}
+% \usepackage{lltjext}
+% \usepackage[kumi=aki, tateaki=1]{kanbun}
+% \usepackage{luatexja-fontspec}
+
+% \begin{document}
+
+% これは横書きの本文です。
+
+% \Kanbun
+% 月落チ烏啼キテ霜満ツ[レ]天ニ、
+% 江楓漁火対ス[二]愁眠ニ[一]。
+% 姑(こ)蘇(そ)城外ノ寒山寺、
+% 夜半ノ鐘声到ル[二]客船ニ[一]。
+% \EndKanbun
+
+% % ── ここから \parbox 版 ──
+% \noindent
+% \parbox<t>[t][8cm][c]{5cm}{%
+%   \printkanbun
+% }
+
+% 再び横書きの本文です。
+
+% \end{document}
+

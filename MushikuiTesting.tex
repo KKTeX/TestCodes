@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[8pt,b5paper,twoside]{ltjsreport}
+\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
+% \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
+% \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
+% \usepackage{background}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\linenumbers  
+
+\begin{document}
+あいうえおかきくけこあいうえおかきくけこ\linelabel{aaa}あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ\blankstart
+\blankmid
+\blankmid[（１）]
+\blankmid
+\blankstop{160pt}あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ
+
+穴開始と同一行に \sou{linelabel} があると穴がずれる←ずれないです
+
+あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえお\ref{aaa}かきくけこ\blankstart
+\blankmid
+\blankmid[（２）]
+\blankmid
+\blankstop{160pt}あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ
+あいうえおかきくけこあいうえおかきくけこ
+\end{document}

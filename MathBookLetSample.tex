@@ -1,0 +1,140 @@
+\documentclass[8pt,b5paper,twoside]{ltjsreport}
+\usepackage[top=12truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
+% \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
+
+%パッケージ関連
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v1.9}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.5}
+\usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/myuline--}
+% \usepackage{background}
+%%%
+
+%ヘッダー関連----------------------------------------------------------------------------
+% \makeatletter
+% \renewcommand\dotfill{%
+%   \leavevmode
+%   \cleaders \hb@xt@ .22em{\hss.\hss}\hfill
+%   \kern \z@
+% }
+% \makeatother
+
+\pagestyle{fancy}
+\renewcommand{\headrule}{}
+\fancyhead{}
+
+\fancyhead[ER]{\raisebox{.7mm}{\mgfamily\footnotesize 数学実戦講座 \ajRoman{1}/\ajRoman{2} 第{\large XX}回 「指数・対数関数」}}
+\fancyhead[OL]{\raisebox{.7mm}{\mgfamily\footnotesize 2025年度 高２数学 XXクラス}}
+\chead{\vskip5mm \hspace{-4pt} \dotfill \hspace{-1pt}}
+
+% \fancyfoot[ER]{\Lhashira{\hashiraextraL}}
+% \fancyfoot[OL]{\Rhashira{\hashiraextraR}}
+
+\cfoot{\vskip-30pt  \hspace{-4pt} \dotfill \hspace{-1pt}}
+
+\tocloftpagestyle{fancy}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{ascolorbox4}[静岡大]{例題１}
+  　不等式$\di \log_x{y} + 2\log_{\frac{1}{2}}{x} - \log_{\frac{1}{2}}{y} - 2 > 0$の表す領域を図示せよ。
+\end{ascolorbox4}
+\begin{multicols*}{2}%
+\DataItemize{Data}{%
+  ● テーマ　：\fft{対数不等式と領域}\\
+  ● 難易度　：$A^+$（発送：$A$, 作業$B^-$）\\
+  ● 目標時間：\fft{20分}（計算量：$A^+$）
+}
+
+\ascboxZ{対数不等式}
+\tri やるべきことは明確で、
+
+\begin{ptbs}{KEY}[$\log$を見かけたら]
+  　初手で\fft{底条件・真数条件}をケア
+\end{ptbs}
+
+にしたがって、
+
+\[x, y が正の数, x \neq 1\]
+
+をまず考えてあげましょう。
+
+\tri その後は\stength{対数不等式}の基本に忠実に、
+
+\begin{ptbs}{KEY}[$\log$の計算の基本方針]
+  　底を統一（なるべく１より大きいものに）
+\end{ptbs}
+
+に従います。今回の統一先としては、
+
+\begin{mydec1}\centering
+  \maru{1} $x$ \hfill \maru{2} $\di \frac{1}{2}$ \hfill \maru{3} $2$
+\end{mydec1}
+
+などが考えられるでしょう。\\
+\tri \maru{1}の$x$に統一しようとすると、
+
+\begin{align*}
+  \text{（与式）} &\Leftrightarrow \log_x{y} + 2 \frac{1}{\log_x{\frac{1}{2}}} - \frac{\log_x{y}}{\log_x{\frac{1}{2}}} - 2 > 0\\
+  &\Leftrightarrow  \log_x{y} - 2 \frac{1}{\log_x{2}} + \frac{\log_x{y}}{\log_x{2}} - 2 > 0
+\end{align*}
+
+となり、$\log_x{y}$と$\log_x{2}$が林立しますが、もともと$x, y$について対称性の高い式であり、また最終的に聞かれているのも$xy$平面の話なので、ここから式変形するのは少々やり辛いです。
+
+\begin{mydec4}
+　今回底を$x$に統一するとうまくいかない理由は、$\log_x{y}$で全てを表すことができないからです。逆に言えばそうでない問題においては有用です。➡︎\midashi{補足}
+\end{mydec4}
+
+\tri \maru{2} は$（底）< 1$となり不等式を解く過程で\snamift{不等号がひっくり返る}ため面倒です。よって避けるべきで、\maru{3}に統一してあげましょう。
+
+\begin{ascolorbox10}{底を$２$に統一}
+  \begin{align*}
+  \text{（与式）} \quad 
+  &\Leftrightarrow \frac{\log_2 y}{\log_2 x} 
+  + 2 \cdot \frac{\log_2 x}{\log_2 \frac{1}{2}} 
+  - \frac{\log_2 y}{\log_2 \frac{1}{2}} - 2 > 0 \\
+  &\Leftrightarrow \frac{\log_2 y}{\log_2 x} 
+  - 2 \log_2 x 
+  + \log_2 y - 2 > 0
+  \end{align*}
+\end{ascolorbox10}
+
+\ascboxZ{カタマリとみる}
+\tri あとは\breakfbox{カタマリ}を考えるのみです。
+
+\begin{ptbs}{KEY}[\breakfbox{カタマリ}とみる]
+  　同じ式が複数登場していたり、複雑な式の部分が存在するとき\\
+  ➡︎\breakfbox{カタマリ}と見て文字でおく！
+\end{ptbs}
+
+後の変形は板書に譲るとしましょう。
+
+\appendixtitle{補足資料}
+\tri 結局、全体の流れは
+
+\begin{ptbs}{KEY}[対数方程式・不等式（指数方程式・不等式も同様）]
+  \begin{description}
+    \item[Step1.] 真数条件・底条件をチェック
+    \item[Step2.] 底の統一（なるべく１より大きいものに）  
+    \item[Step3.] $\log = \log$ と両辺に $\log$ １つずつの形に変形
+    \item[Step4.] 真数の比較 
+  \end{description}
+  \maru{\textmg{注}} 底が１より小さいと不等号の向きが逆になるので注意\\
+  \maru{\textmg{注}} 真数にルートや分数が出ないようにするために
+  \begin{itemize}
+    \item[\maru{1}] 分数の計数は払う
+    \item[\maru{2}] $\log$ の引き算は移項して足し算に直す 
+  \end{itemize}
+\end{ptbs}
+に終始します。\\
+　典型問題ですから、一度も手を止めることなく正解を得てください。
+\end{multicols*}
+
+\minititle{板書用スペース}
+
+\notefill
+
+\begin{ascolorbox14}{\grayhighlight{\textmg{予習で気づかなかったポイント・知らなかったポイント}}}
+  \vspace*{6em}
+\end{ascolorbox14}
+\end{document}
