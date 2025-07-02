@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[8pt,b5paper,twoside]{ltjtreport}
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
 \usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,13 +16,15 @@
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
-\TKRan[（A）（1）]{38}[38][16][6mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\TKRan[\phantom{（A）}（2）]{38}[38][16][6mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\TMRan[（A）（1）]{38}[35][16][6mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\TMRan[　（2）]{38}[35][16][6mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
+\begin{tikzpicture}
+  \draw (0,0) -- node[midway, sloped, above] {傾きに沿ったラベル} (4,2);
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \draw[thick, red]
+    (0,0) .. controls (2,3) and (4,-1) .. (6,2)
+    node[pos=0.3, sloped, above] {制御点１付近}
+    node[pos=0.7, sloped, below] {制御点２付近};
+\end{tikzpicture}
 \end{document}

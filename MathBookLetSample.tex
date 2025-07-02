@@ -1,23 +1,20 @@
-\documentclass[8pt,b5paper,twoside]{ltjsreport}
-\usepackage[top=12truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
+\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%パッケージ関連
+
+%パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v1.9}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.5}
-\usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/myuline--}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
+% \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
 % \usepackage{background}
-%%%
-
-%ヘッダー関連----------------------------------------------------------------------------
-% \makeatletter
-% \renewcommand\dotfill{%
-%   \leavevmode
-%   \cleaders \hb@xt@ .22em{\hss.\hss}\hfill
-%   \kern \z@
-% }
-% \makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \pagestyle{fancy}
 \renewcommand{\headrule}{}
@@ -40,7 +37,7 @@
   　不等式$\di \log_x{y} + 2\log_{\frac{1}{2}}{x} - \log_{\frac{1}{2}}{y} - 2 > 0$の表す領域を図示せよ。
 \end{ascolorbox4}
 \begin{multicols*}{2}%
-\DataItemize{Data}{%
+\noindent\DataItemize{Data}{%
   ● テーマ　：\fft{対数不等式と領域}\\
   ● 難易度　：$A^+$（発送：$A$, 作業$B^-$）\\
   ● 目標時間：\fft{20分}（計算量：$A^+$）
@@ -100,11 +97,11 @@
 \end{ascolorbox10}
 
 \ascboxZ{カタマリとみる}
-\tri あとは\breakfbox{カタマリ}を考えるのみです。
+\tri あとは\fbox{カタマリ}を考えるのみです。
 
-\begin{ptbs}{KEY}[\breakfbox{カタマリ}とみる]
+\begin{ptbs}{KEY}[\fbox{カタマリ}とみる]
   　同じ式が複数登場していたり、複雑な式の部分が存在するとき\\
-  ➡︎\breakfbox{カタマリ}と見て文字でおく！
+  ➡︎\fbox{カタマリ}と見て文字でおく！
 \end{ptbs}
 
 後の変形は板書に譲るとしましょう。
@@ -130,7 +127,7 @@
 　典型問題ですから、一度も手を止めることなく正解を得てください。
 \end{multicols*}
 
-\minititle{板書用スペース}
+\vspace*{.5mm}\minititle{板書用スペース}\vspace*{.6mm}
 
 \notefill
 

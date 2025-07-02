@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[8pt,b5paper,twoside]{ltjsreport}
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
 \usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -12,17 +12,19 @@
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
-% \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
+\usepackage{/Users/majinkuu/Desktop/TeXテキスト/TeXtextTemporary}
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\NewDocumentEnvironment{RanEnv}{}{\parindent=0em}{\par}
 
 \begin{document}
-\YKRan[（A）（1）]{38}[38][16][5mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\YKRan{38}[38][16][5mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\YMRan[（A）（1）]{38}[35][16][5mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
-\vskip0pt
-\YMRan{38}[35][16][5mm][答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え答え]
+{\parindent=0em \YKRan[（1）（a）]{4}[4][4]\YKRan[　（b）]{5}[5][5]\YKRan[　（c）]{4}[4][4]\YKRan[　（e）]{6}[6][6]\YKRan[　（f）]{4}[4][4]\par}
+
+\begin{RanEnv}
+\YKRan[（1）（a）]{4}[4][4]\YKRan[　（b）]{5}[5][5]\YKRan[　（c）]{4}[4][4]\YKRan[　（e）]{6}[6][6]\YKRan[　（f）]{4}[4][4]
+
+\YKRan[（2）（a）]{4}[4][4]\YKRan[　（b）]{5}[5][5]\YKRan[　（c）]{4}[4][4]\YKRan[　（e）]{6}[6][6]\YKRan[　（f）]{4}[4][4]
+\end{RanEnv}
+あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお
 \end{document}
