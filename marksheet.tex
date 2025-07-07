@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
+\documentclass[luatex,fontsize=8pt,paper=b4,twoside,report,landscape]{jlreq}%今後はこっちメインで
 \usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -14,11 +14,43 @@
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
 % \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
 % \usepackage{background}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/answerbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
-\begin{SourceCode}{python}[python]
-  printf("Hello, world!"); // コメント
-\end{SourceCode}
+\begin{multicols*}{3}
+  \noindent \fbox{\LARGE 1}\vskip2mm
+  \begin{ansbox*}[height=8mm,Schar=1]
+    \pbox[1]{25}
+    \newcount\K
+    \K=0 \loop
+    \advance\K by 1
+    \ptxt{\the\K}{l}{\markeggsMath}
+    \ifnum\K<25
+    \repeat
+  \end{ansbox*}
+  \columnbreak
+  \begin{ansbox*}[height=8mm,Schar=1,Snum=26]
+    \pbox[1]{26}
+    \newcount\L
+    \L=25 \loop
+    \advance\L by 1
+    \ptxt{\the\L}{l}{\markeggsMath}
+    \ifnum\L<51
+    \repeat
+  \end{ansbox*}
+  \columnbreak
+  \noindent \fbox{\LARGE 2}\vskip2mm
+  \begin{ansbox*}[height=8mm,Schar=1]
+    \pbox[1]{25}
+    \newcount\K
+    \K=0 \loop
+    \advance\K by 1
+    \ptxt{\the\K}{l}{\markeggsMath}
+    \ifnum\K<25
+    \repeat
+  \end{ansbox*}
+\end{multicols*}
+
 \end{document}
