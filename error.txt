@@ -1,0 +1,1666 @@
+Last login: Wed Jul  9 05:35:06 on ttys000
+majinkuu@Kos-MacBook-Air ~ % cd /Users/majinkuu/Desktop/コンパイル済み 
+majinkuu@Kos-MacBook-Air コンパイル済み % verapdf -f 4 TeXtext.pdf 
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.28.1" buildDate="2025-04-26T22:04:00+09:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.28.1" buildDate="2025-04-26T22:14:00+09:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.28.0" buildDate="2025-05-19T07:21:00+09:00"></releaseDetails>
+  </buildInformation>
+  <jobs7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /Lang(object key = 1395 0 obj, offset = 63799434)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /OutputIntents(object key = 1395 0 obj, offset = 63799502)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 45 0 obj, offset = 115257)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 51 0 obj, offset = 445698)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 54 0 obj, offset = 453727)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 61 0 obj, offset = 461995)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 64 0 obj, offset = 467880)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 67 0 obj, offset = 471195)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 71 0 obj, offset = 472465)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 96 0 obj, offset = 624318)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 117 0 obj, offset = 59836301)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 129 0 obj, offset = 60027639)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 132 0 obj, offset = 60029004)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 148 0 obj, offset = 60043150)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 155 0 obj, offset = 60053068)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 169 0 obj, offset = 60062886)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 186 0 obj, offset = 60076081)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 189 0 obj, offset = 60078082)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 193 0 obj, offset = 60086109)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 196 0 obj, offset = 60162710)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 207 0 obj, offset = 60177589)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 210 0 obj, offset = 60179510)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 213 0 obj, offset = 60185479)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 225 0 obj, offset = 60192558)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 228 0 obj, offset = 60198788)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 231 0 obj, offset = 60207070)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 234 0 obj, offset = 60212954)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 237 0 obj, offset = 60219564)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 240 0 obj, offset = 60228428)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 248 0 obj, offset = 60235845)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 251 0 obj, offset = 60240648)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 258 0 obj, offset = 60248361)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 261 0 obj, offset = 60252411)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 265 0 obj, offset = 60253899)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 268 0 obj, offset = 60255164)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 283 0 obj, offset = 60270332)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 294 0 obj, offset = 60279449)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 297 0 obj, offset = 60284863)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 304 0 obj, offset = 60293875)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 308 0 obj, offset = 60300100)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 311 0 obj, offset = 60308062)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 314 0 obj, offset = 60319013)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 321 0 obj, offset = 60327471)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 334 0 obj, offset = 60342386)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 340 0 obj, offset = 60350120)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 343 0 obj, offset = 60357628)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 347 0 obj, offset = 60363087)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 363 0 obj, offset = 60395839)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 368 0 obj, offset = 60402723)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 371 0 obj, offset = 60409333)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 381 0 obj, offset = 60417345)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 384 0 obj, offset = 60425017)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 387 0 obj, offset = 60438841)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 397 0 obj, offset = 60447100)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 400 0 obj, offset = 60455690)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 407 0 obj, offset = 60463492)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 410 0 obj, offset = 60469600)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 417 0 obj, offset = 60479270)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 420 0 obj, offset = 60485320)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 431 0 obj, offset = 60499521)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 434 0 obj, offset = 60507482)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 437 0 obj, offset = 60512951)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 440 0 obj, offset = 60518962)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 444 0 obj, offset = 60526311)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 447 0 obj, offset = 60531735)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 454 0 obj, offset = 60539996)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 457 0 obj, offset = 60548255)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 472 0 obj, offset = 60560245)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 475 0 obj, offset = 60568860)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 478 0 obj, offset = 60576240)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 485 0 obj, offset = 60583761)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 493 0 obj, offset = 60592831)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 497 0 obj, offset = 60622047)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 506 0 obj, offset = 60629178)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 518 0 obj, offset = 60672048)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 525 0 obj, offset = 60686567)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 532 0 obj, offset = 60693927)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 543 0 obj, offset = 60705306)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 550 0 obj, offset = 60713816)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 553 0 obj, offset = 60721068)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 560 0 obj, offset = 60730076)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 567 0 obj, offset = 60742132)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 574 0 obj, offset = 60751032)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 578 0 obj, offset = 60756842)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 589 0 obj, offset = 60766857)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 604 0 obj, offset = 60779814)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 608 0 obj, offset = 60783008)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 615 0 obj, offset = 61050820)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 630 0 obj, offset = 61064241)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 633 0 obj, offset = 61071957)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 646 0 obj, offset = 61082607)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 673 0 obj, offset = 61176565)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 684 0 obj, offset = 61204804)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 688 0 obj, offset = 61211458)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 691 0 obj, offset = 61216996)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 702 0 obj, offset = 61226328)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 705 0 obj, offset = 61232275)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 716 0 obj, offset = 61238965)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 735 0 obj, offset = 61339520)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 738 0 obj, offset = 61346021)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 741 0 obj, offset = 61352915)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 744 0 obj, offset = 61357751)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 755 0 obj, offset = 61373446)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 759 0 obj, offset = 61379834)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 766 0 obj, offset = 61389820)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 773 0 obj, offset = 61401260)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 776 0 obj, offset = 61405519)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 787 0 obj, offset = 61418954)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 798 0 obj, offset = 61429118)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 801 0 obj, offset = 61436033)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 808 0 obj, offset = 61442775)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 819 0 obj, offset = 61456633)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 822 0 obj, offset = 61460532)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 830 0 obj, offset = 61466629)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 834 0 obj, offset = 61470142)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 842 0 obj, offset = 61475987)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 845 0 obj, offset = 61482085)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 850 0 obj, offset = 61486344)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 853 0 obj, offset = 61491291)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 856 0 obj, offset = 61497955)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 859 0 obj, offset = 61502992)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 866 0 obj, offset = 61509701)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 870 0 obj, offset = 61514469)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 874 0 obj, offset = 61520211)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 877 0 obj, offset = 61521970)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 880 0 obj, offset = 61524849)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 883 0 obj, offset = 61530192)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 890 0 obj, offset = 61540061)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 893 0 obj, offset = 61548057)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 896 0 obj, offset = 61554249)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 899 0 obj, offset = 61559366)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 902 0 obj, offset = 61566686)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 905 0 obj, offset = 61572253)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 909 0 obj, offset = 61580789)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 916 0 obj, offset = 61590157)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 919 0 obj, offset = 61595908)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 926 0 obj, offset = 61603604)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 937 0 obj, offset = 61617217)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 940 0 obj, offset = 61624776)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 943 0 obj, offset = 61631728)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 946 0 obj, offset = 61637295)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 958 0 obj, offset = 61649898)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 962 0 obj, offset = 61658247)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 966 0 obj, offset = 61665031)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 969 0 obj, offset = 61674222)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 972 0 obj, offset = 61681049)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 979 0 obj, offset = 61691700)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 982 0 obj, offset = 61700259)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 985 0 obj, offset = 61710228)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 988 0 obj, offset = 61719292)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 991 0 obj, offset = 61726735)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 994 0 obj, offset = 61734852)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 997 0 obj, offset = 61739019)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1004 0 obj, offset = 61748326)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1007 0 obj, offset = 61750994)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1022 0 obj, offset = 61767482)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1029 0 obj, offset = 61773033)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1032 0 obj, offset = 61964531)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1035 0 obj, offset = 61969880)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1042 0 obj, offset = 61978448)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1045 0 obj, offset = 61985850)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1048 0 obj, offset = 61994394)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1055 0 obj, offset = 62005577)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1063 0 obj, offset = 62012334)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1066 0 obj, offset = 62017855)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1073 0 obj, offset = 62025458)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1076 0 obj, offset = 62030153)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1087 0 obj, offset = 62043232)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1090 0 obj, offset = 62048949)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1093 0 obj, offset = 62058057)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1101 0 obj, offset = 62066662)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1107 0 obj, offset = 62070985)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1114 0 obj, offset = 62080772)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1152 0 obj, offset = 62207685)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1155 0 obj, offset = 62210173)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1158 0 obj, offset = 62216879)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1161 0 obj, offset = 62223539)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1173 0 obj, offset = 62236912)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1180 0 obj, offset = 62245974)
+7月 09, 2025 5:38:25 午前 org.verapdf.parser.COSParser getDictionary
+警告: Dictionary/Stream contains duplicated key /MediaBox(object key = 1183 0 obj, offset = 62249356)
+>
+    <job>
+      <item size="63828061">
+        <name>/Users/majinkuu/Desktop/コンパイル済み/TeXtext.pdf</name>
+      </item>
+      <validationReport jobEndStatus="normal" profileName="PDF/A-4 validation profile" statement="PDF file is not compliant with Validation Profile requirements." isCompliant="false">
+        <details passedRules="101" failedRules="8" passedChecks="208018" failedChecks="202434">
+          <rule specification="ISO 19005-4:2020" clause="6.7.3" testNumber="1" status="failed" failedChecks="1">
+            <description>The PDF/A version and conformance level of a file shall be specified using the PDF/A Identification extension schema. The PDF/A Identification schema defined in Table 2 uses the namespace URI "http://www.aiim.org/pdfa/ns/id/"</description>
+            <object>MainXMPPackage</object>
+            <test>containsPDFAIdentification == true</test>
+            <check status="failed">
+              <context>root/document[0]/metadata[0](3 0 obj PDMetadata)/XMPPackage[0]</context>
+              <errorMessage>The document metadata stream doesn't contain PDF/A Identification Schema</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.2.4.3" testNumber="2" status="failed" failedChecks="33">
+            <description>DeviceRGB shall only be used if a device independent DefaultRGB colour space has been set when the DeviceRGB colour space is used or if the current transparency blending space, when the DeviceRGB colour space is used, is a device independent RGB-based colour space or the current PDF/A OutputIntent, when the DeviceRGB colour space is used, contains an 'RGB ' destination profile</description>
+            <object>PDDeviceRGB</object>
+            <test>(gPageOutputCS == null ? gDocumentOutputCS == 'RGB ' : gPageOutputCS == 'RGB ') || gTransparencyCS == 'RGB ' || gTransparencyCS == 'CalRGB'</test>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[29]/xObject[0](43 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[6](71 0 obj PDPage)/contentStream[0](72 0 obj PDContentStream)/operators[31]/xObject[0](69 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[7](96 0 obj PDPage)/contentStream[0](97 0 obj PDContentStream)/operators[223]/xObject[0](73 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[16](193 0 obj PDPage)/contentStream[0](194 0 obj PDContentStream)/operators[134]/xObject[0](191 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[41](334 0 obj PDPage)/contentStream[0](335 0 obj PDContentStream)/operators[859]/xObject[0](328 0 obj PDXImage)/imageCS[0]/base[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[69](493 0 obj PDPage)/contentStream[0](494 0 obj PDContentStream)/operators[434]/xObject[0](487 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[71](506 0 obj PDPage)/contentStream[0](507 0 obj PDContentStream)/operators[121]/xObject[0](495 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[71](506 0 obj PDPage)/contentStream[0](507 0 obj PDContentStream)/operators[1363]/xObject[0](504 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[72](518 0 obj PDPage)/contentStream[0](519 0 obj PDContentStream)/operators[589]/xObject[0](512 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[84](608 0 obj PDPage)/contentStream[0](609 0 obj PDContentStream)/operators[420]/xObject[0](606 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[1524]/xObject[0](635 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[371]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[372]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[380]/fillCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[385]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[386]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[396]/strokeCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[401]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[402]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[409]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[410]/colorSpace[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[415]/fillCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[418]/fillCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[89](673 0 obj PDPage)/contentStream[0](674 0 obj PDContentStream)/operators[5821]/xObject[0](667 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[95](716 0 obj PDPage)/contentStream[0](717 0 obj PDContentStream)/operators[1829]/xObject[0](707 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[95](716 0 obj PDPage)/contentStream[0](717 0 obj PDContentStream)/operators[1843]/xObject[0](708 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[95](716 0 obj PDPage)/contentStream[0](717 0 obj PDContentStream)/operators[1857]/xObject[0](709 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[95](716 0 obj PDPage)/contentStream[0](717 0 obj PDContentStream)/operators[1871]/xObject[0](710 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[139](958 0 obj PDPage)/contentStream[0](959 0 obj PDContentStream)/operators[2437]/xObject[0](956 0 obj PDXImage)/imageCS[0]/base[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[152](1007 0 obj PDPage)/contentStream[0](1008 0 obj PDContentStream)/operators[371]/xObject[0](1000 0 obj PDXImage)/imageCS[0]/base[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[152](1007 0 obj PDPage)/contentStream[0](1008 0 obj PDContentStream)/operators[379]/xObject[0](1001 0 obj PDXImage)/imageCS[0]/base[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[152](1007 0 obj PDPage)/contentStream[0](1008 0 obj PDContentStream)/operators[387]/xObject[0](1002 0 obj PDXImage)/imageCS[0]/base[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[154](1029 0 obj PDPage)/contentStream[0](1030 0 obj PDContentStream)/operators[124]/xObject[0](1020 0 obj PDXImage)/imageCS[0]</context>
+              <errorMessage>DeviceRGB colour space is used without RGB output intent profile and without current transparency blending space being Device-independent RGB</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.2.4.3" testNumber="3" status="failed" failedChecks="182476">
+            <description>DeviceCMYK shall only be used if a device independent DefaultCMYK colour space has been set when the DeviceCMYK colour space is used or if the current transparency blending space, when the DeviceCMYK colour space is used, is a device independent CMYK-based colour space or the current PDF/A OutputIntent, when the DeviceCMYK colour space is used, contains a 'CMYK' destination profile</description>
+            <object>PDDeviceCMYK</object>
+            <test>(gPageOutputCS == null ? gDocumentOutputCS == 'CMYK' : gPageOutputCS == 'CMYK') || gTransparencyCS == 'CMYK'</test>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[0]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[1]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[4]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[5]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[11]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[12]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[16]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[17]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[23]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[24]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[25]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[26]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[31]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[32]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[40]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[41]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[42]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[43]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[46]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[47]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[58]/strokeCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[65]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[66]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[71]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[74]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[77]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[79]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[81]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[93]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[94]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[99]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[111]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[112]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[117]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[120]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[122]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[124]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[127]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[136]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[137]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[142]/strokeCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[145]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[146]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[148]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[149]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[155]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[156]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[157]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[158]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[163]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[164]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[177]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[178]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[192]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[193]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[200]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[207]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[210]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[217]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[229]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[241]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[242]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[249]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[250]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[255]/strokeCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[258]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[259]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[261]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[262]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[268]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[269]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[270]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[271]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[276]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[277]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[290]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[291]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[305]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[306]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[313]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[320]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[323]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[330]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[342]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[354]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[355]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[365]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[366]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[369]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[370]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[383]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[384]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[398]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[399]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[406]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[407]/colorSpace[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[416]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[426]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[436]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)/contentStream[0](46 0 obj PDContentStream)/operators[446]/fillCS[0]</context>
+              <errorMessage>DeviceCMYK colour space is used without CMYK output intent profile and without current transparency blending space being Device-independent CMYK</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.1.3" testNumber="5" status="failed" failedChecks="1">
+            <description>If a document information dictionary is present, it shall only contain a ModDate entry</description>
+            <object>CosInfo</object>
+            <test>size == 1 &amp;&amp; ModDate != null</test>
+            <check status="failed">
+              <context>root/trailer[0]/Info[0]</context>
+              <errorMessage>Document information dictionary is present and contains CreationDate,Producer,GTS_PDFXVersion,PTEX.FullBanner,Creator,ModDate,Trapped key(s), but allowed only ModDate</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.1.3" testNumber="4" status="failed" failedChecks="1">
+            <description>The Info key shall not be present in the trailer dictionary of PDF/A-4 conforming files unless there exists a PieceInfo entry in the document catalog dictionary</description>
+            <object>CosDocument</object>
+            <test>containsPieceInfo == true || containsInfo == false</test>
+            <check status="failed">
+              <context>root</context>
+              <errorMessage>The Info key present in the trailer dictionary, but PieceInfo entry does not present in the document catalog dictionary</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.2.4.3" testNumber="4" status="failed" failedChecks="19849">
+            <description>DeviceGray shall only be used if a device independent DefaultGray colour space has been set when the DeviceGray colour space is used, or if a PDF/A OutputIntent is in effect</description>
+            <object>PDDeviceGray</object>
+            <test>gPageOutputCS != null || gDocumentOutputCS != null</test>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[0]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[1]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[2]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[3]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[6]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[7]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[19]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[26]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[27]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[32]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[44]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[45]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[50]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[62]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[63]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[68]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[80]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[81]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[86]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[98]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[99]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[104]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[116]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[117]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[122]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[134]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[135]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[140]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[152]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[153]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[158]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[170]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[171]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[44](347 0 obj PDPage)/contentStream[0](348 0 obj PDContentStream)/operators[1025]/xObject[0]/contentStream[0](345 0 obj PDContentStream)/operators[176]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[0]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[1]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[2]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[3]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[6]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[7]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[11]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[12]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[15]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[16]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[17]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[20]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[21]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[28]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[29]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[34]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[37]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[43]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[44]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[47]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[48]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[51]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[52]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[53]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[56]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[57]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[64]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[65]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[70]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[73]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[79]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[80]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[83]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[84]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[87]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[88]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[89]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[92]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[93]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[100]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[101]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[106]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[109]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[115]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[116]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[119]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[120]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[123]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[124]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[125]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[128]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[129]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[136]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[137]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[142]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[145]/fillCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[151]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[152]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[155]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[156]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[159]/strokeCS[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[160]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[161]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[164]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[165]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)/contentStream[0](647 0 obj PDContentStream)/operators[3886]/xObject[0]/contentStream[0](644 0 obj PDContentStream)/operators[172]/colorSpace[0]</context>
+              <errorMessage>DeviceGray colour space is used without output intent profile</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.1.2" testNumber="1" status="failed" failedChecks="1">
+            <description>The file header shall begin at byte zero and shall consist of "%PDF-2.n" followed by a single EOL marker, where 'n' is a single digit number between 0 (30h) and 9 (39h)</description>
+            <object>CosDocument</object>
+            <test>headerOffset == 0 &amp;&amp; /^%PDF-2\.[0-9]$/.test(header)</test>
+            <check status="failed">
+              <context>root</context>
+              <errorMessage>File header %PDF-1.3 (offset = 0) starts at non-zero offset or does not match the pattern %PDF-2.n, where 'n' is a single digit number between 0 and 9</errorMessage>
+            </check>
+          </rule>
+          <rule specification="ISO 19005-4:2020" clause="6.2.9" testNumber="2" status="failed" failedChecks="72">
+            <description>If the document does not contain a PDF/A output intent, then all pages that contain transparency shall either have a page-level PDF/A output intent or the page dictionary shall include the Group key, and the attribute dictionary that forms the value of that Group key shall include a CS entry whose value shall be used as the default blending colour space</description>
+            <object>PDPage</object>
+            <test>gDocumentOutputCS != null || outputColorSpace != null || containsGroupCS == true || containsTransparency == false</test>
+            <check status="failed">
+              <context>root/document[0]/pages[0](45 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[7](96 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[8](117 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[9](129 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[11](148 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[13](169 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[14](186 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[18](207 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[21](225 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[27](248 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[29](258 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[33](283 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[34](294 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[36](304 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[40](321 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[41](334 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[45](363 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[48](381 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[53](407 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[54](410 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[55](417 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[57](431 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[63](454 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[65](472 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[68](485 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[69](493 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[71](506 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[72](518 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[73](525 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[74](532 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[75](543 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[76](550 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[79](567 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[80](574 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[82](589 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[83](604 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[84](608 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[85](615 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[86](630 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[87](633 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[88](646 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[89](673 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[90](684 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[93](702 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[95](716 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[96](735 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[100](755 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[102](766 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[103](773 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[105](787 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[106](798 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[108](808 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[109](819 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[111](830 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[119](866 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[125](890 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[132](916 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[135](937 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[139](958 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[144](979 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[153](1022 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[154](1029 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[157](1042 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[160](1055 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[162](1066 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[163](1073 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[165](1087 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[168](1101 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[170](1114 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[171](1152 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[175](1173 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+            <check status="failed">
+              <context>root/document[0]/pages[176](1180 0 obj PDPage)</context>
+              <errorMessage>The page contains transparent objects with no blending colour space defined</errorMessage>
+            </check>
+          </rule>
+        </details>
+      </validationReport>
+      <duration start="1752007105490" finish="1752007107088">00:00:01.598</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
+    <featureReports failedJobs="0">0</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1752007105422" finish="1752007107114">00:00:01.692</duration>
+  </batchSummary>
+</report>
+majinkuu@Kos-MacBook-Air コンパイル済み % 

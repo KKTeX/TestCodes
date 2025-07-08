@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
+\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
+% \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[x-4]{pdfx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 日本語・フレーム装飾系
+\RequirePackage{luatexja, lltjext} %Lua限定
+\RequirePackage[kumi=beta, tateaki=1.2, yokoaki=3, okuriintrusion=1, scale=3, unit=1em]{kanbun} %kumi=akiは絶対ダメ。unitも変えると約物の配置が狂う。
+
+% ページレイアウト系
+\RequirePackage{fancyhdr, tocloft, needspace, setspace}
+\RequirePackage{multicol, multicolrule}
+
+% フォント・文字列系
+\RequirePackage{anyfontsize, lipsum, listings}
+\RequirePackage{luatexja-ruby, lua-ul} %Lua限定
+
+% リスト系
+\RequirePackage{enumitem}
+\RequirePackage[modulo]{lineno}
+
+% コマンド拡張・条件分岐・演算処理系
+\RequirePackage{xparse, calc, ifthen}
+\RequirePackage{ifptex,ifluatex,ifuptex,ifxetex}
+
+% グラフィックス・色彩系
+\RequirePackage{tikz, wrapfig2 ,pict2e,graphicx,eso-pic}
+\usetikzlibrary{shapes, positioning, shadows, shadows.blur, patterns}
+\usetikzlibrary{decorations.text, decorations.pathmorphing, arrows.meta, calc, shapes, snakes}
+
+\RequirePackage{luacolor} %Lua限定
+\RequirePackage[dvipsnames, svgnames, x11names]{xcolor}
+
+%テキストボックス
+\RequirePackage[most]{tcolorbox}
+\tcbuselibrary{raster}
+
+\RequirePackage{varwidth}
+
+%図表・脚注
+\RequirePackage{booktabs, caption, multirow, longtable, float, footnotehyper, array, longtable, marginnote}
+
+%参照・旧マクロ系
+\RequirePackage{luatex85, zref, zref-savepos, fp, url, expl3}
+
+%数式系----------------------------------------------------------------------------------
+%数学
+\RequirePackage{amsmath, amssymb, amsfonts, mathtools, bm}
+\RequirePackage[thicklines]{cancel}
+
+%物理
+\RequirePackage{physics2, braket, siunitx}
+\usephysicsmodule{ab, diagmat, xmat}
+
+%化学
+\RequirePackage[version=4]{mhchem}
+\RequirePackage{chemfig}
+\input{chemfig-lewis.tex}
+%%%--------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+\includegraphics[width=2cm]{/Users/majinkuu/Desktop/clearhexagonDevided.pdf}
+\end{center}
+\end{document}
