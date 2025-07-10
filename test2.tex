@@ -18,20 +18,14 @@
 
 
 \begin{document}
-
-\lipsum[1] % 行番号なし
-
 \begin{linenumbers}
-\lipsum[2-4] % この部分だけ行番号が付きます
+\lipsum[1]
+\includegraphics[width=.7\linewidth]{/Users/majinkuu/Desktop/TeXテキスト/wrapfigサンプル画像.png}\\
+\highLight{Mark this line!}\linelabel{line:test}
+\lipsum[2]
 \end{linenumbers}
 
-\lipsum[3] % 行番号なし
+\vskip3mm
 
-\begin{linenumbers}
-\lipsum[1-2]
-Here is a labeled line.\linelabel{targetline}
-\lipsum[3]
-\end{linenumbers}
-
-The important content is on line \ref{targetline}.
+ここで、\ref{line:test}行目から...
 \end{document}
