@@ -5,9 +5,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\usepackage[x-4]{pdfx}
-
-
 %パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
@@ -21,8 +18,20 @@
 
 
 \begin{document}
-\voyagetitle{あいうえお}{あいうえお}
-\begin{mydec5w}{あいう}
-  あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお
-\end{mydec5w}
+
+\lipsum[1] % 行番号なし
+
+\begin{linenumbers}
+\lipsum[2-4] % この部分だけ行番号が付きます
+\end{linenumbers}
+
+\lipsum[3] % 行番号なし
+
+\begin{linenumbers}
+\lipsum[1-2]
+Here is a labeled line.\linelabel{targetline}
+\lipsum[3]
+\end{linenumbers}
+
+The important content is on line \ref{targetline}.
 \end{document}
