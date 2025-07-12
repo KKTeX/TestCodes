@@ -16,16 +16,20 @@
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% \newlist{mondaiA}{enumerate}{1}
+% \setlist[mondaiA,1]{%
+%   label=\protect\ajKakko{\arabic*},
+%   left=1.5em,
+%   itemsep=1em
+% }
+
 
 \begin{document}
-\begin{linenumbers}
 \lipsum[1]
-\includegraphics[width=.7\linewidth]{/Users/majinkuu/Desktop/TeXテキスト/wrapfigサンプル画像.png}\\
-\highLight{Mark this line!}\linelabel{line:test}
-\lipsum[2]
-\end{linenumbers}
-
-\vskip3mm
-
-ここで、\ref{line:test}行目から...
+\begin{mondaiA}
+  \item 　$\int (3x^2 + 2x)\, dx$ を計算せよ。
+  \item 　$\int \sin^2 x\, dx$ を計算せよ。
+  \item 　$\int x e^x\, dx$ を計算せよ。
+  \item 　\lipsum[1]
+\end{mondaiA}
 \end{document}
