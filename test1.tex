@@ -6,69 +6,88 @@
 
 
 %パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\usepackage[x-4]{pdfx}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 日本語・フレーム装飾系
-\RequirePackage{luatexja, lltjext} %Lua限定
-\RequirePackage[kumi=beta, tateaki=1.2, yokoaki=3, okuriintrusion=1, scale=3, unit=1em]{kanbun} %kumi=akiは絶対ダメ。unitも変えると約物の配置が狂う。
-
-% ページレイアウト系
-\RequirePackage{fancyhdr, tocloft, needspace, setspace}
-\RequirePackage{multicol, multicolrule}
-
-% フォント・文字列系
-\RequirePackage{anyfontsize, lipsum, listings}
-\RequirePackage{luatexja-ruby, lua-ul} %Lua限定
-
-% リスト系
-\RequirePackage{enumitem}
-\RequirePackage[modulo]{lineno}
-
-% コマンド拡張・条件分岐・演算処理系
-\RequirePackage{xparse, calc, ifthen}
-\RequirePackage{ifptex,ifluatex,ifuptex,ifxetex}
-
-% グラフィックス・色彩系
-\RequirePackage{tikz, wrapfig2 ,pict2e,graphicx,eso-pic}
-\usetikzlibrary{shapes, positioning, shadows, shadows.blur, patterns}
-\usetikzlibrary{decorations.text, decorations.pathmorphing, arrows.meta, calc, shapes, snakes}
-
-\RequirePackage{luacolor} %Lua限定
-\RequirePackage[dvipsnames, svgnames, x11names]{xcolor}
-
-%テキストボックス
-\RequirePackage[most]{tcolorbox}
-\tcbuselibrary{raster}
-
-\RequirePackage{varwidth}
-
-%図表・脚注
-\RequirePackage{booktabs, caption, multirow, longtable, float, footnotehyper, array, longtable, marginnote}
-
-%参照・旧マクロ系
-\RequirePackage{luatex85, zref, zref-savepos, fp, url, expl3}
-
-%数式系----------------------------------------------------------------------------------
-%数学
-\RequirePackage{amsmath, amssymb, amsfonts, mathtools, bm}
-\RequirePackage[thicklines]{cancel}
-
-%物理
-\RequirePackage{physics2, braket, siunitx}
-\usephysicsmodule{ab, diagmat, xmat}
-
-%化学
-\RequirePackage[version=4]{mhchem}
-\RequirePackage{chemfig}
-\input{chemfig-lewis.tex}
-%%%--------------------------------------------------------------------------------------
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
+% \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
+% \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%ヘッダー関連----------------------------------------------------------------------------
+\pagestyle{fancy}
+\renewcommand{\headrule}{}\fancyhead{}
+
+\fancyhead[ER]{\Lhead{How To Use LaTeX}}  
+\fancyhead[OL]{\Rhead{テスト}}
+
+% \fancyfoot[ER]{\Lhashira{\hashiraextraL}}
+% \fancyfoot[OL]{\Rhashira{\hashiraextraR}}
+
+\cfoot{\vskip-30pt  \hspace{-4pt} \dotfill \hspace{-1pt}}
+%----------------------------------------------------------------------------------------
+
+\usepackage{makeidx}\makeindex
+\makeatletter
+\renewenvironment{theindex}{%
+  \MyClearDoublePage
+   \columnsep2\zw
+   \columnseprule\z@
+   \begin{multicols}{2}[\appendixtitle{索引}]%
+     \small
+     \@mkboth{\indexname}{\indexname}%
+     \parindent\z@
+     \parskip\z@
+     \lineskiplimit\z@
+     \lineskip\z@
+     \raggedbottom
+     \raggedcolumns
+     \raggedright
+     \let\item\@idxitem}
+  {\end{multicols}
+   \clearpage}
+
+\renewcommand{\@idxitem}{\par\leavevmode\hangindent1\zw\inhibitglue}
+\renewcommand{\subitem}{\@idxitem\hangindent2\zw\hspace*{1\zw}\inhibitglue}
+\renewcommand{\subsubitem}{\@idxitem\hangindent3\zw\hspace*{2\zw}\inhibitglue}
+\renewcommand{\indexspace}{\par\vskip\baselineskip\relax}
+
+\newcommand\idxdelim{\nobreak{\reset@font\scriptsize\space
+  \leaders\hbox to .3333\zw{\hss\hbox{.}\hss}\hfill\space}\nobreak}
+
+\newcommand*{\symbolindexname}{記号・数字}
+
+\def\makeidxhead#1{%
+  \needspace{2\baselineskip}%
+  \vspace{\baselineskip}%
+  \hbox to \columnwidth{\hfil
+    \normalsize\sffamily\bfseries
+    ■\hspace{.5\zw}#1\hspace{.5\zw}■\hfil}\par
+  \nopagebreak
+}
+\makeatother
 
 \begin{document}
-\begin{center}
-\includegraphics[width=2cm]{/Users/majinkuu/Desktop/clearhexagonDevided.pdf}
-\end{center}
+ぼくのかんがえたさいきょうの\index{ぼくのかんがえたさいきょうの@ぼくのかんがえたさいきょうの}\index{さくいんすたいるふぁいる@索引スタイルファイル}\index{.ist}\index{index style}索引スタイルファイルです。
+\clearpage
+\begin{theindex}
+
+\makeidxhead{\symbolindexname}
+  \item .ist\idxdelim 1
+
+
+\makeidxhead{I}
+  \item index style\idxdelim 1
+
+
+\makeidxhead{さ}
+  \item 索引スタイルファイル\idxdelim 1
+
+
+\makeidxhead{は}
+  \item ぼくのかんがえたさいきょうの\idxdelim 1
+
+\end{theindex}
 \end{document}

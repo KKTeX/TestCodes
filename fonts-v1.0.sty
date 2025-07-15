@@ -1,0 +1,68 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{luatex-hiragino-v1.3}[2023/8/13, Version 1.30]
+%-----------------------------------------------------------------------
+
+%和文フォント
+\RequirePackage[no-math]{fontspec}
+\RequirePackage[no-math,match,scale=1]{luatexja-fontspec}
+\RequirePackage[hiragino-pro,deluxe,expert]{luatexja-preset}
+%%%
+
+%メインフォントの読み込み
+\setmainfont{HiraMinPro-W3}[BoldFont=HiraMinPro-W6]\setmainjfont{HiraMinPro-W3}[BoldFont=HiraMinPro-W6]
+\setsansfont{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]\setsansjfont{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]
+
+%各種ファミリーの整備
+\renewfontfamily{\sffamily}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]
+\renewfontfamily{\mcfamily}{HiraMinPro-W3}[BoldFont=HiraMinPro-W6]
+\renewfontfamily{\gtfamily}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]
+\providefontfamily{\mgfamily}{HiraMaruPro-W4}
+
+\newfontfamily{\sfhira}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]\newjfontfamily{\sfhiraj}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6]
+
+\newfontfamily{\mchira}{HiraMinPro-W3}[BoldFont=HiraMinPro-W6]\newjfontfamily{\mchiraj}{HiraMinPro-W3}[BoldFont=HiraMinPro-W6]
+
+\newfontfamily{\gthira}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6,FontFace={eb}{\shapedefault}{HiraKakuStd-W8}]\newjfontfamily{\gthiraj}{HiraKakuPro-W3}[BoldFont=HiraKakuPro-W6,FontFace={eb}{\shapedefault}{HiraKakuStd-W8}]
+
+\newfontfamily{\mghira}{HiraMaruPro-W4}\newjfontfamily{\mghiraj}{HiraMaruPro-W4}
+
+\newfontfamily{\timesitfamily}{Times New Roman Italic}[BoldFont=Times New Roman Bold Italic]
+\renewcommand{\textit}[1]{\timesitfamily #1}\renewcommand{\itshape}{\timesitfamily}
+
+%欧文・和文両対応化
+\renewcommand{\sffamily}{\sfhira\sfhiraj}
+\renewcommand{\mcfamily}{\mchira\mchiraj}
+\renewcommand{\gtfamily}{\gthira\gthiraj}
+\renewcommand{\mgfamily}{\mghira\mghiraj}
+%%%
+
+%ヒラギノ追加
+%W2, W4%---------------------------------------------------------------------------------
+\newfontfamily{\hirakakutf}{.Hiragino Kaku Gothic Interface W2}[BoldFont=.Hiragino Kaku Gothic Interface W4]\newjfontfamily{\hirakakutfj}{.Hiragino Kaku Gothic Interface W2}[BoldFont=.Hiragino Kaku Gothic Interface W4]
+\newcommand{\texthirakakutf}[1]{{\hirakakutf\hirakakutfj #1}}
+\newcommand{\hirakakutffamily}{\hirakakutf\hirakakutfj}
+%----------------------------------------------------------------------------------------
+%%%
+
+%イタリックフォント
+\newfontfamily{\snellfamily}{Snell Roundhand}
+\newcommand{\textsnell}[1]{{\snellfamily #1}}
+%%%
+
+%英文/数式フォント
+%1.数学（標準）
+\RequirePackage{lmodern}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{textcomp}
+\RequirePackage[lmr]{mathcomp}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{bm}
+
+%%%
+%2.英語
+%\RequirePackage[sc]{mathpazo}
+%\linespread{1.05} % Palladio needs more leading (space between lines)
+%\RequirePackage[T1]{fontenc}
+%%%
+
+\endinput
