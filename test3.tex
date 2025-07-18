@@ -85,4 +85,21 @@ A1 & B1 \\
 A2 & B2 \\
 A3 & B3 \\
 \end{tblr}
+
+\newcommand{\DSHline}[1]{\SetHline[1]{#1}{DeepSkyBlue3,1pt}}
+\newcommand{\BLHline}[1]{\SetHline[1]{#1}{black,1pt}}
+
+\vskip5mm\begingroup
+\begin{center}
+  \renewcommand{\arraystretch}{1.1}
+\begin{tblr}{colspec={cllc}}
+  \SetHline[1]{1}{DeepSkyBlue4,1pt}\SetHline[1]{2-4}{black,1pt}
+  記号       & 構文（使い方）            & 意味                 & 使用例（数式）             \\
+  \SetHline[1]{1}{DeepSkyBlue4,1pt}\SetHline[1]{2-4}{black,1pt}
+  $+$        & あ  & あ & い\\
+  \SetHline[1]{1}{DeepSkyBlue4,1pt}\SetHline[1]{2-4}{black,1pt}
+\end{tblr}
+\captionof{table}{基本記号１}
+\end{center}
+\endgroup\vskip5mm
 \end{document}
