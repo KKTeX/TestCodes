@@ -17,5 +17,63 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\[\vecc{OA}=\vecc*{a}\]
+\rowcolors{2}{grayMid}{grayMid}
+\vspace*{.5cm}
+  \begingroup
+  \begin{center}
+    \renewcommand{\arraystretch}{0.9}
+  \begin{tabular}{cllc}
+  \hline
+  小文字         & コマンド例           & 大文字                      & コマンド例 \\
+  \hline
+  $\alpha$     & \verb|$\alpha$|      & なし                          & なし \\
+  $\beta$      & \verb|$\beta$|       & なし                          & なし \\
+  $\gamma$     & \verb|$\gamma$|      & $\Gamma$                      & \verb|$\Gamma$| \\
+  $\delta$     & \verb|$\delta$|      & $\Delta$                      & \verb|$\Delta$| \\
+  $\epsilon$   & \verb|$\epsilon$|    & なし                          & なし \\
+  $\varepsilon$& \verb|$\varepsilon$| & なし                          & なし \\
+  $\zeta$      & \verb|$\zeta$|       & なし                          & なし \\
+  $\eta$       & \verb|$\eta$|        & なし                          & なし \\
+  $\theta$     & \verb|$\theta$|      & $\Theta$                      & \verb|$\Theta$| \\
+  $\vartheta$  & \verb|$\vartheta$|   & なし                          & なし \\
+  $\iota$      & \verb|$\iota$|       & なし                          & なし \\
+  $\kappa$     & \verb|$\kappa$|      & なし                          & なし \\
+  $\lambda$    & \verb|$\lambda$|     & $\Lambda$                     & \verb|$\Lambda$| \\
+  $\mu$        & \verb|$\mu$|         & なし                          & なし \\
+  $\nu$        & \verb|$\nu$|         & なし                          & なし \\
+  $\xi$        & \verb|$\xi$|         & $\Xi$                         & \verb|$\Xi$| \\
+  $o$          & \verb|$o$|           & なし                          & なし \\
+  $\pi$        & \verb|$\pi$|         & $\Pi$                         & \verb|$\Pi$| \\
+  $\varpi$     & \verb|$\varpi$|      & なし                          & なし \\
+  $\rho$       & \verb|$\rho$|        & なし                          & なし \\
+  $\varrho$    & \verb|$\varrho$|     & なし                          & なし \\
+  $\sigma$     & \verb|$\sigma$|      & $\Sigma$                      & \verb|$\Sigma$| \\
+  $\varsigma$  & \verb|$\varsigma$|   & なし                          & なし \\
+  $\tau$       & \verb|$\tau$|        & なし                          & なし \\
+  $\upsilon$   & \verb|$\upsilon$|    & $\Upsilon$                    & \verb|$\Upsilon$| \\
+  $\phi$       & \verb|$\phi$|        & $\Phi$                        & \verb|$\Phi$| \\
+  $\varphi$    & \verb|$\varphi$|     & なし                          & なし \\
+  $\chi$       & \verb|$\chi$|        & なし                          & なし \\
+  $\psi$       & \verb|$\psi$|        & $\Psi$                        & \verb|$\Psi$| \\
+  $\omega$     & \verb|$\omega$|      & $\Omega$                      & \verb|$\Omega$| \\
+  \hline
+  \end{tabular}
+  \captionof{table}{ギリシャ文字}
+  \end{center}
+\endgroup\vskip5mm
+
+\tcbox[title=タイトル,right=0mm,left=0mm,boxsep=0mm]{%
+  \begin{tblr}{colspec={l|l|l|l}}
+  小文字         & コマンド例           & 大文字                      & コマンド例 \\
+  \hline
+  あ & い & う & え \\
+  \end{tblr}}
+
+\begin{simple}{あいうえお}
+\begin{tblr}{colspec={l|l|l|l}}
+  小文字         & コマンド例           & 大文字                      & コマンド例 \\
+  \hline
+  あ & い & う & え \\
+\end{tblr}
+\end{simple}
 \end{document}
