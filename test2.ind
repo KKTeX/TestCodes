@@ -1,0 +1,114 @@
+\begin{theindex}
+
+\providecommand\idxdelim{\space\dotfill\space}
+\providecommand\makeidxhead[1]{{\vbox{\hbox to \linewidth{\sffamily\bfseries #1\ \hskip\fill}\vskip1pt\hrule}}\nopagebreak}
+\providecommand\symbolindexname{Symbols}
+
+\makeidxhead{L}
+  \item LaTeX\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{あ}
+  \item あいうえお\idxdelim 1
+  \item アルゴリズム\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{い}
+  \item インターネット\idxdelim 1
+  \item インデックス\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{お}
+  \item 終わり\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{か}
+  \item 学問\idxdelim 1
+  \item 漢字\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{き}
+  \item 京都\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{け}
+  \item 限界\idxdelim 1
+  \item 言語学\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{こ}
+  \item コード\idxdelim 1
+  \item 公園\idxdelim 1
+  \item コマンド\idxdelim 1
+  \item コンピュータ\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{さ}
+  \item 索引\idxdelim 1
+  \item 散歩\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{し}
+  \item 社会学\idxdelim 1
+  \item 人工知能\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{す}
+  \item 数学\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{せ}
+  \item 生成\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{た}
+  \item 旅\idxdelim 1
+  \item 太郎\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{て}
+  \item データ構造\idxdelim 1
+  \item テスト\idxdelim 1
+  \item 哲学\idxdelim 1
+  \item 天気\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{と}
+  \item 東京\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{は}
+  \item 花子\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{ふ}
+  \item 物理学\idxdelim 1
+  \item プログラミング\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{も}
+  \item 文字\idxdelim 1
+
+  \indexspace
+
+\makeidxhead{よ}
+  \item 用語\idxdelim 1
+
+\end{theindex}

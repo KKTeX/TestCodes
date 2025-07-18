@@ -8,14 +8,61 @@
 %パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/luatex-hiragino-v1.3}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/fonts-v1.3}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
 \usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
 % \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
 % \usepackage{background}
+\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/indexmaking}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%ヘッダー関連----------------------------------------------------------------------------
+\pagestyle{fancy}
+\renewcommand{\headrule}{}\fancyhead{}
+
+\fancyhead[ER]{\Lhead{How To Use LaTeX}}  
+\fancyhead[OL]{\Rhead{テスト}}
+
+% \fancyfoot[ER]{\Lhashira{\hashiraextraL}}
+% \fancyfoot[OL]{\Rhashira{\hashiraextraR}}
+
+\cfoot{\vskip-30pt  \hspace{-4pt} \dotfill \hspace{-1pt}}
+%----------------------------------------------------------------------------------------
+
 \begin{document}
-$\ddddot{v}$
+\appendixtitle{あいうえお}
+\se{索引テスト}
+\begin{multicols*}{2}
+これは索引付きテキストのサンプルである。\index{さくいん@索引}文章の中に自然に\LaTeX の \verb|\index| コマンドを織り交ぜることで、\index{こまんど@コマンド}\index{LaTeX}豊富な索引を生成できるようにする。\index{せいせい@生成}
+
+まず、あいうえお\index{あいうえお}のような文字列に始まり、漢字\index{かんじ@漢字}を混ぜる。\index{もじ@文字}  
+こうした処理は、インデックス\index{いんでっくす@インデックス}のテスト\index{てすと@テスト}に最適である。
+
+次に、文章を進めながらさらに用語を追加していこう。\index{ようご@用語}たとえば、物理学\index{ぶつりがく@物理学}、数学\index{すうがく@数学}、哲学\index{てつがく@哲学}、言語学\index{げんごがく@言語学}、社会学\index{しゃかいがく@社会学}などの学問分野に関する語彙も登録する。\index{がくもん@学問}
+
+今日は晴れている。\index{てんき@天気}天気が良い日は、公園\index{こうえん@公園}を散歩したくなるものだ。\index{さんぽ@散歩}
+
+次は人名。太郎\index{たろう@太郎}と花子\index{はなこ@花子}が登場する物語を想像してみよう。二人は東京\index{とうきょう@東京}で出会い、旅に出た。\index{たび@旅}行き先は京都\index{きょうと@京都}である。
+
+さらに、以下のような用語も登場する。
+
+- コンピュータ\index{こんぴゅーた@コンピュータ}
+- プログラミング\index{ぷろぐらみんぐ@プログラミング}
+- アルゴリズム\index{あるごりずむ@アルゴリズム}
+- データ構造\index{でーたこうぞう@データ構造}
+- インターネット\index{いんたーねっと@インターネット}
+- 人工知能\index{じんこうちのう@人工知能}
+
+これはテストコードである。\index{こーど@コード}\index{てすと@テスト}意味のある文脈を持ちながら、索引エントリを過剰に含むことで、MakeIndexの限界を試すのだ。\index{げんかい@限界}
+
+最後にもう一度、あいうえお\index{あいうえお}から始めよう。そして、エピローグとして「終わり」\index{おわり@終わり}という言葉を添えておこう。
+\begin{ptbs}{\mbox{Point!!}}[Robustなコマンド]
+  　基本的には、セクション見出しの引数のように、補助ファイル（\sou{.toc} や \sou{.aux} など）に書き出されたり他所で展開されたりするコマンドの引数の中に入れてもきちんと動くように保護する役割を持たせるために\sou{Robust}という指定をする。
+
+  　実用上は\snamift{普通の定義で使っていたところエラーが出る局面に遭遇した場合に初めて\sou{Robust}にする}という使い方でいい。
+\end{ptbs}
+\end{multicols*}
+
+\input{/Users/majinkuu/Desktop/テストコード/test2.ind}
 \end{document}
