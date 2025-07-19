@@ -16,34 +16,8 @@
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\NewDocumentCommand{\Verb}{ m v}{#1:\texttt{#2}}
 
 \begin{document}
-\begin{ptbs}{\mbox{Caution!!}}[\hannarifamily 縦書き環境で気をつけるべきこと]
-\hannarifamily
-\begin{enumerate}
-  \item tikzにおいて原点が右上に、$x$軸正方向が↓に、$y$軸正方向が→になる\footnote{それによりテキストボックスもちゃんと$\pi/2$回転した上で描画されてくれるのでそのまま使える。}
-  \item （\seihou{1}に連動し）\sou{\tbk vspace}, \sou{\tbk vskip}が紙面左右方向のスペースを制御する（逆もまた然り）
-  \item \seihou{1}, \seihou{2}は\sou{fancyhdr}の描画には影響しない
-  \item 通常の下線コマンド（\sou{lua-ul}の\sou{\tbk underLine}など）をそのまま使ってしまうと文字に被ってしまいかねない
-  \item \sou{uline--, myuline--}で線を引くと２重になってしまうことがある
-  \item \sou{twoside}指定時に冊子の開き方が逆になる
-\end{enumerate}
-\end{ptbs}
-
-\begin{mydec3}{\TeX \hspace{1ex} Output}
-  \vskip5mm\begin{center}
-  \renewcommand{\arraystretch}{1.1} % 行間を少し広めに
-  \begin{tabular}{|c||c|c|c|c|c|c|c|}
-  \hline
-  $x$       & $\cdots$ & $0$ & $\cdots$ & $1$ & $\cdots$ & $2$ & $\cdots$ \\
-  \hline
-  $f'(x)$   & $+$      &     & $+$      & $0$ & $-$      &     & $-$      \\
-  \hline
-  $f''(x)$  & $+$      & $0$ & $-$      &     & $-$      & $0$ & $+$      \\
-  \hline
-  $f(x)$    & \neRround &     & \neLround &     & \seLround &     & \seRround \\
-  \hline
-  \end{tabular}
-  \end{center}\vskip5mm
-\end{mydec3}
+\underLine{あいうえお}
 \end{document}
