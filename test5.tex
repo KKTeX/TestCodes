@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
-\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report,tate]{jlreq}%今後はこっちメインで
+\usepackage[top=30truemm,bottom=40truemm,left=18truemm,right=18truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -16,15 +16,9 @@
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\makeatletter
-\renewcommand{\tagform@}[1]{\maketag@@@（#1）}  % 全角括弧に変更
-\makeatother
+\setlength{\marginparwidth}{3cm}   % デフォルトは約2 cm前後
+\setlength{\marginparsep}{1em}       % 本文との間隔もお好みで調整
 
 \begin{document}
-\begin{equation}
-  1 + 1 = 2 \label{eq:example}
-\end{equation}
-
-\eqref{eq:example}  % 参照の例
-
+\lipsum[1-4]\reversemarginpar\marginpar{あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお}\lipsum[1-4]\marginpar{あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお}
 \end{document}
