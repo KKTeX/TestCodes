@@ -1,75 +1,54 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
-\usepackage[top=16truemm,bottom=14truemm,left=12truemm,right=12truemm]{geometry}%（電子書籍はこっち）
-% \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{jlreq}
+\usepackage{atbegshi}% shipout フック用
 
+\makeatletter
+%================================================================
+% 1) フラグ定義
+\newif\ifjl@insertparskip
+\jl@insertparskipfalse
 
-%パッケージ関連%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/packages-v1.0}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/colors-v1.0}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/fonts-v1.3}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/pre-KKawaguchi-v2.0}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/stfile-of-KKwaguchi-v1.6}
-\usepackage{/Users/majinkuu/Documents/TeXDevelop/styles2/sectioncustomize2}
-\usepackage{/Users/majinkuu/Desktop/TeXテキスト/TeXtextTemporary}
-% \usepackage[usetype1]{/Users/majinkuu/Documents/TeXDevelop/styles2/使わないstyファイル/myuline--}
-% \usepackage{background}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 2) shipout 後（ページ先頭）のリセット
+\AddToHook{shipout/after}{%
+  \global\jl@insertparskipfalse
+}
 
+% 3) everypar の入れ替えはパッケージ読み込み後に
+\AtBeginDocument{%
+  % 元の everypar を保存
+  \edef\jl@orig@everypar{\the\everypar}%
 
-% \newunderlinetype\beginOvertUlX[\number\dimexpr.1ex]{\cleaders\hbox{%
-% \setlength\unitlength{.3ex}%
-% \begin{picture}(1.5,0)(0,-8) % ← y方向に持ち上げ
-%   \linethickness{0.4pt}
-%   \color{\OvertUlX}%
-%   \put(0,0){\line(1,0){1.5}}
-% \end{picture}%
-% }}
+  % 新しい everypar 定義
+  \everypar{%
+    % 1) まずオリジナルを呼ぶ
+    \jl@orig@everypar
+    % 2) フラグが立っていたら空白を入れる
+    \ifjl@insertparskip
+      \vspace*{2\baselineskip}%
+    \fi
+    % 3) 次以降は必ず空白
+    \global\jl@insertparskiptrue
+  }%
+}
+\makeatother
 
-% \newcommand{\OldOvertUlX}{}
-% \NewDocumentCommand\overLineX{ +m }{{%
-%   \beginOvertUlX#1%
-% }}
-
-
-% \NewDocumentCommand\defineOvertUlXType{ m }
-%   {
-%     \expandafter\newunderlinetype
-%       \csname beginOvertUlX#1\endcsname
-%       [\number\dimexpr.1ex]
-%       {\cleaders\hbox{%
-%       \setlength\unitlength{.3ex}%
-%       \begin{picture}(4,0)(0,-8) % ← y方向に持ち上げ
-%         \linethickness{0.4pt}
-%         \color{black}%
-%         \put(0,0){\line(1,0){4}}
-%       \end{picture}%
-%         }%
-%       }%
-%   }
-
-% \makeatletter
-% \NewDocumentCommand \overLine { O{black} +m }
-%   {{
-%     \@ifundefined{beginOvertUlX#1}{
-%       \defineOvertUlXType{#1}
-%     }{}
-%     \csname beginOvertUlX#1\endcsname #2
-%   }}
-% \makeatother
 \begin{document}
-\begin{tcbraster}[raster columns=2,raster equal height]
-  \begin{lstlistingsU}
-    %本文中でも使えることに注意。
-    \newlength{\strwidth}
-    \settowidth{\strwidth}{Hello, World!}
-    \fbox{\parbox{\strwidth}{これはちょうど "Hello, World!" と同じ幅}}
-  \end{lstlistingsU}
-  \begin{mydec3U}{\TeX \hspace{1ex} Output}
-    \newlength{\strwidth}
-    \settowidth{\strwidth}{Hello, World!}
-    \fbox{\parbox{\strwidth}{これはちょうど "Hello, World!" と同じ幅}}
-  \end{mydec3U}
-\end{tcbraster}
+
+\section*{テスト見出し}
+\section*{あいうえお}
+最初の段落。見出し直後なので空白ナシ。
+
+\medskip
+
+通常の段落。前に \texttt{medskip} があるから分かりづらいですが、
+2 行分の空きが自動挿入されます。
+
+もう一つ段落。やはり空きあり。
+
+\newpage
+
+ページ先頭の段落。ここも空きナシ。
+\section*{あいうえお}
+\section*{あいうえお}
+
 \end{document}
+
