@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report,tate]{jlreq}%今後はこっちメインで
+\documentclass[luatex,fontsize=8pt,paper=b5,twoside,report]{jlreq}%今後はこっちメインで
 \usepackage[top=30truemm,bottom=40truemm,left=18truemm,right=18truemm]{geometry}%（電子書籍はこっち）
 % \usepackage[top=16truemm,bottom=14truemm,outer=15truemm,inner=18truemm]{geometry}%（紙の書籍はこっち）
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,9 +16,10 @@
 % \usepackage{background}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setlength{\marginparwidth}{3cm}   % デフォルトは約2 cm前後
-\setlength{\marginparsep}{1em}       % 本文との間隔もお好みで調整
-
 \begin{document}
-\lipsum[1-4]\reversemarginpar\marginpar{あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお}\lipsum[1-4]\marginpar{あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえお}
+\begin{multicols}{2}
+\begin{ptbs}{KEY}[あいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいうえおあいう]
+  あいうえお
+\end{ptbs}
+\end{multicols}
 \end{document}
